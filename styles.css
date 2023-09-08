@@ -1,0 +1,88 @@
+body {
+    background-color: #4d1635;
+    margin: 50px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    /*display: grid;
+   /*grid-template-columns: 40% 60%;*/
+   background-color: rgb(164, 118, 3);
+    height: 85%;
+    width: auto;
+    box-shadow: 4px 3px 8px 1px #f6f8fa;
+    -webkit-box-shadow: 4px 3px 8px 1px #f2f4f7;
+}
+
+
+.container-left {
+    float: left;
+    color: white;
+    /*height: 100%;*/
+    width: 90%;
+    background-color: rgb(164, 118, 3);
+    padding: 10px;
+}
+
+.container-right {
+    float: right;
+    color: rgb(7, 7, 7);
+    /*height: 120%;*/
+    background-color: #fff;
+    padding: 20px;
+}
+
+.personal-info {
+    color: #fff;
+    background-color: none;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+img.rounded-img {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+img.rounded-img:hover {
+    width: 200px;
+    height: 200px;
+}
+
+div.img-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 50px 0 0;
+    background-color: rgb(164, 118, 3);
+    margin-top: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 30px;
+}
+
+div.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+footer {
+    color: rgb(164, 118, 3);
+}
+
+h1 {
+    
+}
